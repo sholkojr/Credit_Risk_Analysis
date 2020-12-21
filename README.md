@@ -16,4 +16,9 @@ Each of the methods produced distict results as follows:
 
 ![Results_Table](/Resources/Methods_Results_Table.png)
 
+Oversampling method and its SMOTE enhancement provided marginal improvement on the Recall of low risk classification, which would be the key performance indicator as limiting false negatives is integral to lender control of financial risk.  An actual high risk individual labelled as low risk is a potential unknown liability.
+
+Simple undersampling is probably the worst method of the lot, as the balanced accuracy score and low risk recall is the lowest of all the methods tested by close to 10 and 20 points respectively.  However the balanced Over/Undersampling SMOTEENN method proves to be significant enhancement to the Undersampling method, but is effectively the same as the SMOTE method in this case.
+
+The enhanced methods for this dataset are in the Balanced Random Forest and further in the Ensemble AdaBoost methods with provide significant improvments to balanced accuracy and Low Risk Recall.
 
