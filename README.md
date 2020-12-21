@@ -20,5 +20,11 @@ Oversampling method and its SMOTE enhancement provided marginal improvement on t
 
 Simple undersampling is probably the worst method of the lot, as the balanced accuracy score and low risk recall is the lowest of all the methods tested by close to 10 and 20 points respectively.  However the balanced Over/Undersampling SMOTEENN method proves to be significant enhancement to the Undersampling method, but is effectively the same as the SMOTE method in this case.
 
-The enhanced methods for this dataset are in the Balanced Random Forest and further in the Ensemble AdaBoost methods with provide significant improvments to balanced accuracy and Low Risk Recall.
+The best results for this dataset are in the Balanced Random Forest and further in the Ensemble AdaBoost methods with provide significant improvments to balanced accuracy and Low Risk Recall.
+
+## Summary
+
+To summarize, the ensemble machine learning algorithms, particularly with the adaptive boost enhancement proved to be the better method for determining credit risk of individuals and particularly in limiting the potential number of low risk false negatives.
+
+Undersampling proved to be the worst method used and the false negative rate was significantly worse and would potentially expose any lenders using this model to lend money to high risk individuals without adequate risk mitigation.
 
